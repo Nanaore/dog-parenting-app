@@ -1,0 +1,6 @@
+javs.html
+*.js 
+*.json
+boots
+node_modules
+createaccount.html

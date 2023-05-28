@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="boots/css/bootstrap.min.css"/> 
+    <link rel="stylesheet" href="home.css">
+   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
+    <link href="node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="jquery-3.6.3.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> -->
+</body>
+   
+</head>
+<body>
+    
+
+    <!-- <h1 id="ftitle">Are you interested in becoming a dog parent?<br>Then You're in the right place <img src="thumbsup.png"/></h1>
+    <div id="ffd">
+        <img src="dog-e10b5a9331054f2cafc93d2b6eec918a.jpg"/>
+    </div>   -->
+     
+
+
+    
+        <div class=" mt-2">
+          <nav class="navbar navbar-expand-sm  navup  me-0 " >
+            <div class="container-fluid">
+          <a class="navbar-brand logs" href="javascript:void(0)">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto d-flex justify-content-start h5">
+            <li class="nav-item navitemh">
+              <a class="nav-link ms-1 me-1 navitemn" href="javascript:void(0)">Home</a>
+            </li>
+            <li class="nav-item navitemh">
+              <a class="nav-link ms-1 me-1 navitemn" href="javascript:void(0)">About</a>
+            </li>
+            <li class="nav-item navitemh">
+              <a class="nav-link  ms-2 me-1 navitemn" href="javascript:void(0)">Report</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav  d-flex justify-content-end h5">
+            <li class="nav-item navitemh">
+              <a class="nav-link ms-1 me-1 navitemn" data-bs-toggle="modal" data-bs-target="#myModal" href="javascript:void(0)">Create Account</a>
+              <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title ms-1">Create account</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <form action="">
+                        <div class="mb-3 mt-3">
+                          <label for="email">Email:</label>
+                          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="">
+                          <label for="pwd">Password:</label>
+                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+                        <div class="form-check">
+                          <label class="form-check-label">
+                            <!-- <input class="form-check-input" type="checkbox" name="remember"> Remember me -->
+                          </label> 
+                        </div>
+                        <button type="submit" class="btn sb d-flex justify-content-center">Sign up</button>
+                      </form>
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <!-- <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div> -->
+              
+                  </div>
+                </div>
+              </div>
+              
+              
+            </li>
+            
+          
+            <!-- <li class="nav-item dropdown navitemh">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+              <ul class="dropdown-menu dbc mt-2  border border-0" >
+                <li><a class="dropdown-item h5  " href="#">Link</a></li>
+                <li><a class="dropdown-item h5 mt-2 " href="#">Another link</a></li>
+                <li><a class="dropdown-item h5 mt-2" href="#">A third link</a></li>
+              </ul>
+            </li>     -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+        </div>
+        
+<div class="bod pt-4 pb-5 mt-2">
+    <div class=" thehead container mt-4 mb-4 " align="center">
+      <p class="h4 hdcol fw-bolder mb-5"> Are you interested in becoming a dog parent?<br>You're in the right place! <i class="bi bi-emoji-smile"></i></p>
+    </div>
+
+    <div class=" theslide container mt-2" align="center">
+
+    <!-- Carousel -->
+
+<div id="demo" class="carousel slide " data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+    
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <img src="unsplash1.jpg" alt="Los Angeles" class="d-block rounded shadow imgsiz " >
+    </div>
+    <div class="carousel-item">
+      <img src="unsplash2.jpg" alt="Los Angeles" class="d-block rounded imgsiz " >
+    </div>
+    <div class="carousel-item">
+      <img src="unsplash3.jpg" alt="Los Angeles" class="d-block rounded imgsiz" >
+    </div>
+    <div class="carousel-item">
+      <img src="unsplash4.jpg" alt="Los Angeles" class="d-block rounded imgsiz" >
+    </div>
+    <div class="carousel-item">
+      <img src="unsplash5.jpg" alt="Los Angeles" class="d-block rounded imgsiz" >
+    </div>
+    <div class="carousel-item">
+      <img src="unsplash6.jpg" alt="Los Angeles" class="d-block rounded imgsiz" >
+    </div>
+    <div class="carousel-item">
+      <img src="unsplash7.jpg" alt="Los Angeles" class="d-block rounded imgsiz" >
+    </div>
+    <div class="carousel-item">
+      <img src="unsplash8.jpg" alt="Los Angeles" class="d-block rounded imgsiz " >
+    </div>
+    
+    
+    
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  
+</div>
+    </div>
+
+
+    <!-- <p class="h2 hdcol">Facts about dogs</p> -->
+  <p class="para1 h5 fw-normal ms-5 me-5 brief" align="center">Dogs can have many positive effects on the lives of their owners. 
+    They influence social, emotional, and cognitive development in children, promote an active lifestyle,
+    provide companionship, and have even been able to detect oncoming epileptic seizures or the presence of
+   certain cancers. Dogs can also help to relieve stress and anxiety in people. Around 38% of US householdsare 
+   estimated to have one or more dogs. Although dogs can be beneficial to the health and wellbeing of their owners,
+   people should be aware that dogs of any age, including puppies, can sometimes carry harmful germs that can make
+   people sick. Germs from dogs can cause a variety of illnesses, from minor skin infections to serious illnesses. 
+   One of the best ways you can protect yourself from getting sick is to thoroughly wash your hands after handling,
+   caring for, feeding, or cleaning up after dogs. By providing your dog with routine veterinary care and 
+   following Healthy tips, you are less likely to get sick from touching or interacting with a dog.</p>
+
+</div>  
+
+<div class="containerr mt-5" >
+  <p class=" h2 hdcol2 pt-5 mb-5 fw-bolder" align="center">Things you need to know before adopting a dog</p> 
+
+  <div class="cont" align="center">
+  <div class="container pt-2 pb-5">
+    <p class="underhdcol2 h4 fw-bold pt-4 mb-3">Take your time making a decision</p>
+    <p class="para1 h5 fw-normal">With all of the adorable “fur babies” in need of homes, you might be tempted to make a snap decision.
+      However, it will be better for your future furry BFF if you put a lot of thought into it. For example, 
+      do you live in an apartment, or a house with a yard? Does your family travel a lot? Who will be there to 
+      let your dog out when you're not home? Do your siblings want a new dog as much as you do?</p>
+      <img src="persondecision.jpg" class="imgex mt-4 mb-5 ">
+  </div>
+    
+</div>
+   
+   
+
+<div class="cont" align="center">
+  <div class="container pt-2 pb-5">
+    <p class="underhdcol2 h4 fw-bold pt-4 mb-3">Adopting means getting your pup<br> from a shelter</p>
+    <p class="para1 h5 fw-normal">Even though there are many wonderful dogs waiting in shelters for
+      someone to adopt them, breeders and pet stores continue to produce and sell animals just to make money.
+       For every dog bought from a pet store or breeder, a dog in a shelter has to be put to sleep.Pet stores
+        cause countless dogs (and many other animals) to suffer, so adopt your pup from a shelter instead.</p>
+  <img src="dogshelter.jpg" class="imgex mt-4 mb-5">
+  </div>
+  
+</div>
+     
+<div class="cont" align="center">
+  <div class="container pt-2 pb-5">
+    <p class="underhdcol2 h4 fw-bold pt-4 mb-3">Make sure your family's wallet can handle it!</p>
+    <p class="para1 h5 fw-normal">Dogs require a lot of care that can quickly add up to big bucks. When you're
+       responsible for a dog, you need to spend money on regular and emergency vet visits (just like humans,
+        dogs can have medical emergencies!), bedding, a collar and harness, high-quality dog food, treats, toys,
+         grooming...the list goes on</p>
+         <img src="personwallet.jpg" class="imgex mt-4 mb-5">
+  </div>
+  
+</div>
+    
+
+<div class="cont" align="center">
+  <div class="container pt-2 pb-5">
+    <p class="underhdcol2 h4 fw-bold pt-4 mb-3"> It's so important to get your dog spayed or neutered</p>
+    <p class="para1 h5 fw-normal">Every year 6 to 8 million animals in the U.S. are left at animal shelters, 
+      and half of them are put to sleep just because there aren't enough good homes for them all. Can you imagine 
+      if you were killed simply because there wasn't enough room for you in the world? The only way to help stop 
+      this is to make sure that no more unwanted puppies are born.</p>
+      <img src="dogspay.jpg" class="imgex mt-4 mb-5">
+  </div>
+  
+</div>
+    
+
+<div class="cont" align="center">
+  <div class="container pt-2 pb-5">
+    <p class="underhdcol2 h4 fw-bold pt-4 mb-3">Dog tags and microchipping are a must!</p>
+    <p class="para1 h5 fw-normal">Accidents happen and you never know if and when your dog will get lost or 
+      run away. If you couldn't find your way back home, you'd be able to call someone for help, but that's not
+       the case with dogs. Get a collar with proper tags that have your dog's name and at least two phone numbers 
+       for you or your family. Microchipping (a simple procedure that the vet can do) is another great way to make
+        sure your dog gets back home again! If you move, make sure you update the tags and give the microchip 
+        company your new information. Ask your parents to talk to your dog's vet for more information.</p>
+        <img src="dogtags.jpg" class="imgex mt-4 mb-5">
+  </div>
+  
+</div>
+    
+
+<div class="cont" align="center">
+  <div class="container pt-2 pb-5">
+    <p class="underhdcol2 h4 fw-bold pt-4 mb-3">Dogs need their teeth brushed,<br> just like humans</p>
+    <p class="para1 h5 fw-normal">Seriously! Dental health is important for overall health,
+       so remember to brush your furry BFF's chompers several times a week. Introduce the toothbrush
+        slowly and gradually, with lots of positive reinforcement. You can make this a fun routine by
+         rewarding your dog after each brushing.</p>
+         <img src="dogbrush.jpg" class="imgex mt-4 mb-5">
+  </div>
+  
+</div>
+    
+
+<div class="cont" align="center">
+  <div class="container pt-2 pb-5">
+    <p class="underhdcol2 h4 fw-bold pt-5 mb-3">Don't forget about your furry friend's nails …</p>
+    <p class="para1 h5 fw-normal">Dogs' nails should be trimmed regularly so that they don't break, get snagged on something (which can hurt!), or get so long that they interfere with normal walking—if dogs' nails grow too long, it can affect their gait and even their nervous system. Some dogs hate having their paws handled, but you can always take your pup to the vet or groomer once a month and let them handle it!</p>
+  <img src="dognail.jpg" class="imgex mt-4 mb-5">
+  </div>
+  
+</div>
+    
+
+    <div class="cont" align="center">
+      <div class="container pt-2 pb-5">
+        <p class="underhdcol2 h4 fw-bold pt-5 mb-3">...and fur!</p>
+        <p class="para1 h5 fw-normal">Brushing dogs regularly helps prevent nasty matting and increases circulation to the skin—which keeps it healthy! Spending that quality time together can also be a nice bonding experience. Some pups need professional grooming, so sit down with your parents and read up on how much upkeep your new friend's coat will need. Dogs don't really need baths very often. It's only necessary if they have a skin condition or if they roll in something smelly or dirty, so don't go overboard with the shampoo—it can dry out their skin and remove important natural oils if used too often.</p>
+      <img src="dogfur.jpg" class="imgex mt-4 mb-5">
+      </div>
+      
+    </div>
+    
+
+    <div class="cont" align="center">
+      <div class="container pt-2 pb-5">
+        <p class="underhdcol2 h4 fw-bold pt-5 mb-3">Keep an eye on what your dog eats</p>
+        <p class="para1 h5 fw-normal">Some foods that are fine for people to eat can be poisonous to dogs. High up on the list is chocolate—but that's not all. There're lots of “human foods” that could also be harmful—like onions, grapes, raisins, macadamia nuts, and more. It's also important to feed your pup high-quality dog food and treats, and be careful not to overfeed—obesity (being super overweight) causes major health problems in dogs and makes them very uncomfortable. And regular meals are much healthier than leaving food out all day long.</p>
+      <img src="dogeats.jpg" class="imgex mt-4 mb-5">
+      </div>
+      
+    </div>
+    
+
+    <div class="cont" align="center">
+      <div class="container pt-2 pb-5">
+        <p class="underhdcol2 h4 fw-bold pt-5 mb-3">Dogs need toys and entertainment</p>
+        <p class="para1 h5 fw-normal">Before adopting a dog, it's important to pup-proof your home. Hide dangerous items such as chemicals, electrical wiring, and sharp objects—ask your parents to help you find good places for these things. But also, put away anything that could be viewed by your new dog as a toy. If you don't want your homework or favorite pillow chewed up, be sure to keep them out of your furry friend's reach. Leave plenty of dog-friendly chew toys out—you don't like being bored, and neither will your furry BFF!</p>
+      <img src="dogtoy.jpg" class="imgex mt-4 mb-5">
+      </div>
+      
+    </div>
+    
+
+    <div class="cont" align="center">
+      <div class="container pt-2 pb-5">
+        <p class="underhdcol2 h4 fw-bold pt-5 mb-3">Dogs also need exercise!</p>
+        <p class="para1 h5 fw-normal">This one might seem like a no-brainer because of course pups need to run around. But sometimes people don't realize just how much exercise their new pooch will really need.Dogs need to go on at least one long walk every single day. Play games like fetch or “hide and seek” with your furry BFF when you get home from school to help release some of that wild doggie energy. Plenty of exercise and fresh air makes for a happy pup and, as they say, “A tired dog is a well-behaved dog.”</p>
+      <img src="dogexercise.jpg" class="imgex mt-4 mb-5">
+      </div>
+      
+    </div>
+    
+
+    <div class="cont" align="center">
+      <div class="container pt-2 pb-5">
+        <p class="underhdcol2 h4 fw-bold pt-5 mb-3">Start training your new dog ASAP</p>
+        <p class="para1 h5 fw-normal">This is a big one. The key to having a happy dog is setting clear rules and boundaries. It's important to guide new pups with positive rewards. They'll repeat good behavior if they're praised for it—just like human kiddos! J And don't ever lock them in a crate or yell at them for “misbehaving”—that will just make them afraid of you. Dogs can't possibly know how you want them to behave until you and your family teach them.</p>
+      <img src="dogtrain.jpg" class="imgex mt-4 mb-5">
+      </div>
+      
+    </div>
+    
+
+    <div class="cont" align="center">
+      <div class="container pt-2 pb-5">
+        <p class="underhdcol2 h4 fw-bold pt-5 mb-3">Prevent fleas, ticks, and worms</p>
+        <p class="para1 h5 fw-normal">This is especially important from late spring into the fall, when these little critters are the most common. Ask your parents to purchase products that keep fleas and ticks off your dog (such as Comfortis) from your vet.
+    
+          And don't forget about heartworms! Where there are mosquitos in the U.S., you can usually find heartworms—and heartworm disease can kill dogs. Thankfully, heartworm prevention is as simple as giving your dog a monthly medication, such as Heartgard (also available from your vet!).</p>
+      <img src="dogticks.jpg" class="imgex mt-4 mb-5">
+      </div>
+      
+      </div>
+    
+
+      <div class="cont" align="center">
+        <div class="container pt-2 pb-5">
+          <p class="underhdcol2 h4 fw-bold pt-5 mb-3">NEVER leave your dog chained up outdoors...</p>
+          <p class="para1 h5 fw-normal">It's hard to imagine that anyone could ever leave their dog all alone outside to suffer, especially in bad weather, but unfortunately some do. It's cruel and dangerous. If you know anyone who does this, speak up! Have your parents call animal control or local authorities.</p>
+        <img src="dogchained.jpg" class="imgex mt-4 mb-5">
+        </div>
+        
+      </div>
+    
+
+    <div class="cont" align="center">
+      <div class="container pt-2 pb-5">
+        <p class="underhdcol2 h4 fw-bold pt-5 mb-3">...and never leave your dog in the car!</p>
+        <p class="para1 h5 fw-normal">Temperatures inside cars can skyrocket in a matter of minutes—even if it's not particularly hot outside. If you see a dog locked inside a hot car, ask your parents to report it to the police or animal control immediately. You could save a life!</p>
+      <img src="dogcar.jpg" class="imgex mt-4 mb-5">
+      </div>
+      
+    </div>
+    
+
+    <div class="cont" align="center">
+      <div class="container pt-2 pb-5">
+        <p class="underhdcol2 h4 fw-bold pt-5 mb-3">Give your canine pal plenty of love and affection</p>
+        <p class="para1 h5 fw-normal">Remember, a dog's life is much, much shorter than the average human's life. It goes by quickly, so be your pup's BFF and show your love every single day!</p>
+      <img src="dogaffection.jpg" class="imgex mt-4 mb-5">
+      </div>
+      
+    </div>
+   
+</div>
+
+
+    
+
+    
+     
+      
+       <!-- <script src="boots/js/bootstrap.min.js"></script>   -->
+       <!-- <script src="boots/js/bootstrap.bundle.min.js"></script> -->
+       
+    
+</html>
